@@ -27,3 +27,9 @@ services:
 # TODO:
 # To learn about configuring Kafka for access across networks see
 # https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/
+
+# Command:
+# docker-compose up -d
+# docker exec --interactive --tty glsid-kafla-broker kafka-console-consumer --bootstrap-server broker:9092 --topic T1
+# docker exec --interactive --tty glsid-kafla-broker kafka-console-producer --bootstrap-server broker:9092 --topic T1
+
